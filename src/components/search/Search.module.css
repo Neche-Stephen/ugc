@@ -1,0 +1,36 @@
+.search{
+    margin-top: 76px;
+}
+
+.browse_search{
+    color: #000;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+@media(max-width:767px){
+    .browse_search{
+        font-size: 24px;
+    }   
+}
+
+.find_hire{
+    color: #000;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+
+@media(max-width:767px){
+    .find_hire{
+        width: 298px;
+        font-size: 10px;
+    } 
+}
