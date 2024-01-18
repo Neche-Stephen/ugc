@@ -1,0 +1,77 @@
+
+
+.popular_brands{
+    margin-bottom: 105px;
+}
+
+.popular_brands_title{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px; /* 120% */
+}
+
+@media(max-width:767px){
+    .popular_brands_title{
+        text-align: center;
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 37.2px; /* 120% */
+    }
+}
+
+.popular_brands_text{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 66px;
+}
+
+
+@media(max-width:767px){
+    .popular_brands_text{
+        font-size: 10px;
+    }
+}
+
+/* Brands */
+
+.brand_images{
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.Digikala{
+    width: 263px;
+    height: 70px;
+    opacity: 0.5;
+    background: url('../../assets/images/Digikala.png'),50% / contain no-repeat;
+    mix-blend-mode: luminosity;
+}
+
+.Motor_Talk{
+    width: 262px;
+    height: 58px;
+    /* width: 20%; */
+    opacity: 0.5;
+    background: url('../../assets/images/Motor-Talk.png'),  50% / contain repeat;
+    mix-blend-mode: luminosity;
+}
+
+@media(max-width:767px){
+    .Digikala, .Motor_Talk {
+        width: 76px;
+        height: 20px;
+        /* background-image: url('../../assets/images/Motor-Talk.png'); */
+
+    }
+    .Motor_Talk{
+    }
+}

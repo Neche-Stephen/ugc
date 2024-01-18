@@ -1,0 +1,127 @@
+
+.ugcworks{
+    margin-bottom: 132px;
+}
+
+.ugcworks_title{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px; /* 120% */
+}
+
+@media(max-width:767px){
+    .ugcworks_title{
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 120% */
+    }
+}
+
+.ugcworks_text{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 34px;
+}
+@media(max-width:767px){
+    .ugcworks_text{
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}
+
+.cost_effective, .chat{
+    display: flex;
+    width: 306px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 6px;
+    background: #D5FCCF;
+    box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cost_effective_title, .chat_title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cost_effective_text, .chat_text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+@media(max-width:767px){
+    .cost_effective_text, .chat_text{
+        font-size: 10px;
+    }
+}
+
+.secured, .quick_pay{
+    display: flex;
+    width: 306px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 6px;
+    background: #F5F5F5;
+    box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.secured_title, .quick_pay_title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.secured_text, .quick_pay_text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+@media(max-width:767px){
+    .secured_text, .quick_pay_text{
+        font-size: 10px;
+    }
+}
+@media(max-width:767px){
+    .cost_effective, .chat, .secured, .quick_pay{
+        width: 164px;
+        height: 235px;
+        flex-shrink: 0;
+    }
+}
+

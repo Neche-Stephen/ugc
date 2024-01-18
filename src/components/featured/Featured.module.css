@@ -1,0 +1,32 @@
+.featured{
+    margin-top: 87px;
+    margin-bottom: 94px;
+    margin-left: 72px;
+    margin-right: 73px;
+}
+
+/* @media(max-width:12) */
+
+.featured_text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px; /* 120% */
+}
+
+.hire{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+
+.featured_card_row{
+    gap: 18px;
+}
+
