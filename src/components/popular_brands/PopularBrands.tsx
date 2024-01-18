@@ -1,7 +1,7 @@
 
 
 import styles from './PopularBrands.module.css'
-import images from '../../assets'
+// import images from '../../assets'
 
 
 
