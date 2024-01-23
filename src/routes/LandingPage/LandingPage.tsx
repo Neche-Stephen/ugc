@@ -5,6 +5,7 @@ import Search from '../../components/search/Search';
 import Featured from '../../components/featured/Featured';
 import UgcWorks from '../../components/how_ugc_works/UgcWorks';
 import PopularBrands from '../../components/popular_brands/PopularBrands';
+import TopInfluencers from '../../components/topInfluencers/TopInfluencers';
 
 const LandingPage: React.FC = () => {
     return (
@@ -15,6 +16,7 @@ const LandingPage: React.FC = () => {
         <Featured />
         <UgcWorks />
         <PopularBrands />
+        <TopInfluencers />
       </div>
     );
   };

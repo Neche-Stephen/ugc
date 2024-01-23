@@ -1,0 +1,38 @@
+.top_influencers{
+    margin-bottom: 157px;
+}
+
+.top_influencers_title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px; /* 120% */
+}
+
+.top_influencers_text_see_all{
+    margin-bottom: 43px;
+}
+
+.top_influencers_text{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.top_influencers_see_all{
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.top_influencers_card_row{
+    gap: 18px;
+}
